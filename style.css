@@ -1,0 +1,256 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --black-1: #17181a;
+  --gray-1: #42454a;
+  --gray-2: #414449;
+  --gray-3: #eae8f3;
+  --gray-4: rgba(139, 147, 141, 1);
+}
+
+/* Header Styles */
+.top-nav {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+
+  max-width: 93%;
+  margin: 28px auto 0 auto;
+  text-transform: uppercase;
+}
+
+.top-nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6%;
+  position: relative;
+  min-height: 46px;
+}
+
+.top-nav > ul > li > a {
+  text-decoration: none;
+  color: var(--gray-1, #42454a);
+}
+
+.arrow {
+  border: solid #42454a;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+}
+
+.top-nav button {
+  color: var(--white, #fff);
+  background-color: var(--gray-1, #42454a);
+  padding: 16px 26px;
+  border-radius: 4px;
+  box-shadow: 0px 12px 25px -10px rgba(66, 69, 74, 0.3);
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.28px;
+}
+
+.top-nav > ul li:last-child {
+  position: absolute;
+  right: 0;
+}
+
+.top-nav .log-in-list-item {
+  position: absolute;
+  right: 122px;
+}
+
+.top-nav .log-in-list-item > button {
+  background-color: var(--white, #fff);
+  color: var(--gray-1, #42454a);
+}
+
+.top-nav-hr {
+  margin-top: 26px;
+  color: var(--gray-3, #eae8f3);
+}
+
+.header-wrapper {
+  margin-top: 34px;
+  margin-left: 3.5%;
+  max-width: 96.5%;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--gray-1, #42454a);
+
+  display: flex;
+  position: relative;
+}
+
+.header-text-wrapper > h1 {
+  margin-top: 52px;
+  max-width: 586px;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 90px;
+  font-weight: 300;
+  line-height: 95px; /* 105.556% */
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header-text-wrapper > h1 > span {
+  font-weight: 700;
+}
+
+.header-text-wrapper > hr {
+  margin-top: 92px;
+  max-width: 335px;
+  height: 4px;
+  background: var(--gray-1, #42454a);
+}
+
+.header-text-wrapper > p.first-prgh {
+  max-width: 354px;
+  margin-top: 62px;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px; /* 154.545% */
+  letter-spacing: 0.22px;
+}
+
+.header-buy-now-sect {
+  display: flex;
+  margin-top: 52px;
+  min-height: 74px;
+  align-items: center;
+  max-width: 450px;
+}
+
+.header-buy-now-sect p.buy-now-prgh {
+  color: var(--black-1, #17181a);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  letter-spacing: 0.4px;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.header-buy-now-sect p.watch-video-prgh {
+  color: var(--gray-2, #414449);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: 0.18px;
+  max-width: 88px;
+  margin-left: 17%;
+  margin-right: 4.5%;
+}
+
+.header-image {
+  background: #dbdbdb;
+  width: 510px;
+  height: 550px;
+  position: absolute;
+  left: 65%;
+  bottom: -5%;
+  border-radius: 300px 0 0 300px;
+}
+
+.header-image > img {
+  position: absolute;
+  right: 5%;
+  bottom: -3%;
+}
+
+.header-scooter-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 3.5%;
+}
+
+.header-scooter-nav span {
+  font-family: "Calistoga", cursive;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 230px; /* 153.333% */
+  letter-spacing: 1.5px;
+  color: var(--white, #fff);
+  text-shadow: -1.5px 0 var(--gray-4, rgba(139, 147, 141, 1)),
+    0 1.5px var(--gray-4, rgba(139, 147, 141, 1)),
+    1.5px 0 var(--gray-4, rgba(139, 147, 141, 1)),
+    0 -1.5px var(--gray-4, rgba(139, 147, 141, 1));
+  margin-right: 2.5%;
+}
+
+.header-scooter-nav button {
+  background-color: var(--white, #fff);
+  border: 1.5px solid black;
+  padding: 15px 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header-scooter-nav button.btn-left-arrow {
+  border-radius: 50% 0 0 50%;
+  border-right: none;
+}
+
+.header-scooter-nav button.btn-right-arrow {
+  border-radius: 0 50% 50% 0;
+}
+
+.header-features-sect {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--gray-1, #42454a);
+  max-width: 93%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 3vw;
+}
+
+.header-features-sect > div {
+  text-align: center;
+  border-radius: 6.606px;
+  border: 0.661px solid #f4f4f4;
+  box-shadow: 0px 13.211169242858887px 26.422338485717773px 0px
+    rgba(0, 0, 0, 0.06);
+  min-width: 174px;
+  min-height: 136px;
+}
+
+.header-features-sect h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%; /* 40px */
+  padding-top: 30px;
+}
+
+.header-features-sect span {
+  font-size: 18px;
+}
+
+.header-features-sect p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 130%; /* 16.9px */
+}

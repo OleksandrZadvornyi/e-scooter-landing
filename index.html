@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +21,7 @@
     <header>
       <nav class="top-nav">
         <ul>
-          <li>
+          <li class="logo">
             <a href="javascript:void(0)"
               ><img
                 src="/images/logo.svg"
@@ -29,57 +30,72 @@
                 height="46"
             /></a>
           </li>
-          <li><a href="javascript:void(0)">Products</a></li>
+          <li>
+            <a href="javascript:void(0)">Products<i class="arrow down"></i></a>
+          </li>
           <li><a href="javascript:void(0)">Gallery</a></li>
           <li><a href="javascript:void(0)">Contact</a></li>
-          <li><a href="javascript:void(0)">Log In</a></li>
+          <li class="log-in-list-item"><button>Log In</button></li>
           <li><button>Sign Up</button></li>
         </ul>
       </nav>
-      <hr />
-      <h1>Let's ride the future</h1>
-      <hr />
-      <p>Simple and sleek design with users in mind.</p>
-      <button>&rarr;</button>
-      <p>Buy now</p>
-      <p>Watch our video how it works</p>
 
-      <img
-        src="/images/bike-left-header.png"
-        alt="Scooter Image"
-        width="854"
-        height="646"
-      />
+      <hr class="top-nav-hr" />
 
-      <div>
-        <span>01</span>
-        <button>&lt;</button>
-        <button>&gt;</button>
+      <div class="header-wrapper">
+        <div class="header-text-wrapper">
+          <h1>Let's ride <span>the future.</span></h1>
+          <hr />
+          <p class="first-prgh">Simple and sleek design with users in mind.</p>
+          <div class="header-buy-now-sect">
+            <a href="javascript:void(0)"
+              ><img src="/images/arrow-right.svg" alt="Arrow Right" width="58"
+            /></a>
+            <p class="buy-now-prgh">Buy now</p>
+            <p class="watch-video-prgh">Watch our video how it works</p>
+            <img src="/images/play-button.png" alt="Play Button" />
+          </div>
+        </div>
+
+        <div class="header-image">
+          <img
+            src="/images/bike-left-header.png"
+            alt="Scooter Image"
+            width="854"
+            height="646"
+          />
+        </div>
       </div>
 
-      <section>
+      <div class="header-scooter-nav">
+        <span>01</span>
+        <button class="btn-left-arrow">&lt;</button>
+        <button class="btn-right-arrow">&gt;</button>
+      </div>
+
+      <section class="header-features-sect">
         <div>
-          <h3>105 lbs</h3>
+          <h3>105 <span>lbs</span></h3>
           <p>Net Weight</p>
         </div>
         <div>
-          <h3>26 mph</h3>
+          <h3>26 <span>mph</span></h3>
           <p>Top Speed</p>
         </div>
         <div>
-          <h3>38 miles</h3>
+          <h3>38 <span>miles</span></h3>
           <p>Max Range</p>
         </div>
         <div>
-          <h3>89 nm</h3>
+          <h3>89 <span>nm</span></h3>
           <p>Max Torques</p>
         </div>
         <div>
-          <h3>22% slope</h3>
+          <h3>22% <span>slope</span></h3>
           <p>Hill Climbing</p>
         </div>
         <div>
-          <h3>2x</h3>
+          <h3>2x <span></span></h3>
           <p>Hydralic Disc Brakes</p>
         </div>
       </section>
@@ -279,5 +295,7 @@
 
       <p>© Copyright 2021. All rights reserved.</p>
     </footer>
+
+    <script src="/script.js"></script>
   </body>
 </html>
