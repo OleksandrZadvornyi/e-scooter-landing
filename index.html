@@ -105,20 +105,22 @@
       <section class="product-info">
         <h2>Product Information</h2>
         <p>Our Scooter has following unique design and technology features:</p>
-        <img
-          src="/images/bike-right.png"
-          alt="Scooter"
-          width="748"
-          height="706"
-        />
-        <ul>
-          <li>Lightweight aircraft grade aluminium frame</li>
-          <li>Car grade lithium battery</li>
-          <li>Self-balanced</li>
-          <li>Plug n play</li>
-          <li>Quick release adapter</li>
-          <li>RFID key card</li>
-        </ul>
+        <div class="product-info-list-section">
+          <img
+            src="/images/bike-right.png"
+            alt="Scooter"
+            width="748"
+            height="706"
+          />
+          <ul>
+            <li>Lightweight aircraft grade aluminium frame</li>
+            <li>Car grade lithium battery</li>
+            <li>Self-balanced</li>
+            <li>Plug n play</li>
+            <li>Quick release adapter</li>
+            <li>RFID key card</li>
+          </ul>
+        </div>
       </section>
 
       <section class="motor-info">
@@ -134,41 +136,56 @@
         <h2>Multiple Accessories</h2>
         <p>There are multiple modes for the scooter for your multiple needs.</p>
         <div class="golf-bag-rock-sect">
-          <h3>Golf Bag Rock</h3>
-          <ul>
-            <li>Material : Aluminium alloy</li>
-            <li>Color : Black</li>
-            <li>Capacity : 45lbs</li>
-            <li>Ease : Steady & adjustable</li>
-          </ul>
-          <img
-            src="/images/materials.png"
-            alt="Scooter Materials"
-            width="478"
-            height="478"
-          />
-          <img src="/images/bike-golf.png" alt="" />
+          <div class="golf-sect-text-wrapper">
+            <h3>Golf Bag Rock</h3>
+            <ul>
+              <li>Material : Aluminium alloy</li>
+              <li>Color : Black</li>
+              <li>Capacity : 45lbs</li>
+              <li>Ease : Steady & adjustable</li>
+            </ul>
+          </div>
+          <div class="golf-sect-images">
+            <img
+              src="/images/materials.png"
+              alt="Scooter Materials"
+              width="478"
+              height="478"
+            />
+            <img
+              src="/images/bike-golf.png"
+              alt="Scooter with Golf Bag"
+              width="492"
+              height="438"
+            />
+          </div>
         </div>
+
         <div class="shopping-rack-sect">
-          <h3>Shopping Rack</h3>
-          <ul>
-            <li>Material : Aluminium alloy</li>
-            <li>Color : Black</li>
-            <li>Capacity : 45lbs</li>
-            <li>Ease : Quick & adjustable</li>
-          </ul>
-          <img
-            src="/images/shopping-rack.png"
-            alt="Shopping Rack"
-            width="240"
-            height="210"
-          />
-          <img
-            src="/images/green-bike-back.png"
-            alt="Back of a Green Scooter"
-            width="472"
-            height="426"
-          />
+          <div class="shopping-rack-text-wrapper">
+            <h3>Shopping Rack</h3>
+            <ul>
+              <li>Material : Aluminium alloy</li>
+              <li>Color : Black</li>
+              <li>Capacity : 45lbs</li>
+              <li>Ease : Quick & adjustable</li>
+            </ul>
+          </div>
+
+          <div class="shopping-sect-images">
+            <img
+              src="/images/shopping-rack.png"
+              alt="Shopping Rack"
+              width="240"
+              height="210"
+            />
+            <img
+              src="/images/green-bike-back.png"
+              alt="Back of a Green Scooter"
+              width="472"
+              height="426"
+            />
+          </div>
         </div>
         <button>More Accessories Coming Soon</button>
       </section>
@@ -179,13 +196,20 @@
           View gallery of our products and make yourself satisfied with our
           creation.
         </p>
-        <img src="/images/scooter.png" alt="Scooter" />
-        <img src="/images/scooter-seat.png" alt="Scooter Seat" />
-        <img src="/images/scooter-wheel.png" alt="Scooter Wheel" />
-        <div class="gallery-buttons">
-          <button>Battery Images</button>
-          <button>Spare Parts Images</button>
-          <button>Charging Cable Images</button>
+        <div class="gallery-wrapper">
+          <div class="flex-column first-col">
+            <img src="/images/scooter.png" alt="Scooter" />
+            <div class="gallery-buttons">
+              <button>Battery Images</button>
+              <button>Spare Parts Images</button>
+              <button>Charging Cable Images</button>
+            </div>
+          </div>
+
+          <div class="flex-column second-col">
+            <img src="/images/scooter-seat.png" alt="Scooter Seat" />
+            <img src="/images/scooter-wheel.png" alt="Scooter Wheel" />
+          </div>
         </div>
       </section>
 
@@ -193,7 +217,7 @@
         <h2>Colors</h2>
         <p>Checkout our products colors.</p>
         <img src="/images/scooter-big.png" alt="White Scooter" />
-        <div>
+        <div class="scooters-images-wrapper">
           <img src="/images/blue-scooter.png" alt="Blue Scooter" />
           <img src="/images/green-scooter.png" alt="Green Scooter" />
           <img src="/images/red-scooter.png" alt="Red Scooter" />
@@ -203,50 +227,67 @@
 
       <section class="testimonials">
         <h2>Testimonials</h2>
-        <div class="review">
-          <div class="stars"></div>
-          <p>
-            On the other hand, we denounce with righteous indignation and
-            dislike men who are so beguiled and demoralized by the charms of
-            pleasure.
-          </p>
-          <div class="review-author">
-            <img src="/images/person-1.png" alt="Photo of Serhiy Hipskyy" />
-            <h4>Serhiy Hipskyy</h4>
-            <p>CEO Universal</p>
-          </div>
-        </div>
 
-        <div class="review">
-          <div class="stars"></div>
-          <p>
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus.
-          </p>
-          <div class="review-author">
-            <img src="/images/person-2.png" alt="Photo of Justus Menke" />
-            <h4>Justus Menke</h4>
-            <p>CEO Eronaman</p>
+        <div class="reviews-wrapper">
+          <div class="review">
+            <img class="stars" src="/images/stars.svg" alt="Five Stars" />
+            <p>
+              On the other hand, we denounce with righteous indignation and
+              dislike men who are so beguiled and demoralized by the charms of
+              pleasure.
+            </p>
+            <div class="review-author">
+              <img src="/images/person-1.png" alt="Photo of Serhiy Hipskyy" />
+              <h4>Serhiy Hipskyy</h4>
+              <p>CEO Universal</p>
+            </div>
           </div>
-        </div>
 
-        <div class="review">
-          <div class="stars"></div>
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos
-            dolores.
-          </p>
-          <div class="review-author">
-            <img src="/images/person-3.png" alt="Photo of Britain Eriksen" />
-            <h4>Britain Eriksen</h4>
-            <p>CEO Universal</p>
+          <div class="review">
+            <img class="stars" src="/images/stars.svg" alt="Five Stars" />
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus.
+            </p>
+            <div class="review-author">
+              <img src="/images/person-2.png" alt="Photo of Justus Menke" />
+              <h4>Justus Menke</h4>
+              <p>CEO Eronaman</p>
+            </div>
+          </div>
+
+          <div class="review">
+            <img class="stars" src="/images/stars.svg" alt="Five Stars" />
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores.
+            </p>
+            <div class="review-author">
+              <img src="/images/person-3.png" alt="Photo of Britain Eriksen" />
+              <h4>Britain Eriksen</h4>
+              <p>CEO Universal</p>
+            </div>
           </div>
         </div>
 
         <div class="testimonials-nav">
-          <button>&rarr;</button>
-          <button>&larr;</button>
+          <button
+            style="
+              color: rgba(66, 69, 74, 1);
+              background-color: rgba(250, 250, 250, 1);
+            "
+          >
+            &larr;
+          </button>
+          <button
+            style="
+              color: rgba(250, 250, 250, 1);
+              background-color: rgba(66, 69, 74, 1);
+            "
+          >
+            &rarr;
+          </button>
         </div>
       </section>
 
@@ -255,7 +296,7 @@
         <p>Subscribe to our newsletter to get amazing offers in future.</p>
         <form action="">
           <input type="email" name="" id="" placeholder="Enter your email." />
-          <input type="submit" value="Get start" />
+          <input type="submit" value="Get started" />
         </form>
       </section>
     </main>

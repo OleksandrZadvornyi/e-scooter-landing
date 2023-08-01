@@ -254,3 +254,286 @@
   font-weight: 400;
   line-height: 130%; /* 16.9px */
 }
+
+/* Main Styles */
+main > section {
+  margin-top: 126px;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--gray-1, #42454a);
+}
+
+main > section > h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%; /* 60px */
+}
+
+main > section > p {
+  margin-top: 34px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+section.product-info > .product-info-list-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+section li::before {
+  content: url("/images/list-marker.svg");
+  padding-right: 18px;
+}
+
+section ul li {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+section.motor-info > p {
+  position: relative;
+  z-index: 1;
+}
+
+section.motor-info > img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.golf-bag-rock-sect {
+  margin: 112px auto 0;
+  max-width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.accessories-info h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%; /* 60px */
+}
+
+.accessories-info ul {
+  margin-top: 34px;
+}
+
+.golf-sect-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shopping-rack-sect {
+  margin-top: 112px;
+  max-width: 88.5%;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.shopping-sect-images {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4vw;
+}
+
+.accessories-info > button,
+.gallery button {
+  display: block;
+  padding: 28px 60px;
+  margin: 102px auto 0;
+
+  border-radius: 10px;
+  border: 2px solid var(--gray-1, #42454a);
+  background-color: var(--white, #fff);
+  cursor: pointer;
+
+  color: var(--gray-1, #42454a);
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%; /* 36px */
+}
+
+.gallery-wrapper {
+  display: flex;
+  max-width: 93%;
+  margin: 112px auto 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.first-col {
+  margin-top: 190px;
+}
+
+.second-col {
+  gap: 96px;
+}
+.gallery-buttons button {
+  margin: 0;
+  width: 90%;
+}
+
+.gallery-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.colors > img {
+  width: 100%;
+  margin-top: 112px;
+}
+
+.scooters-images-wrapper > img {
+  width: 20vw;
+  border-radius: 10px;
+}
+
+.scooters-images-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10%;
+}
+
+.testimonials {
+  background-color: #fafafa;
+}
+
+.testimonials > h2 {
+  padding-top: 78px;
+}
+
+.reviews-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  flex-wrap: wrap;
+}
+
+.review {
+  border: 1px solid #d8d8d8;
+  max-width: 25%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-color 300ms, box-shadow 300ms;
+}
+
+.review:hover {
+  background-color: #fff;
+  box-shadow: 0px 1.8518518209457397px 3.1481480598449707px 0px
+      rgba(49, 49, 49, 0.02),
+    0px 20px 13px 0px rgba(49, 49, 49, 0.05),
+    0px 38.51852035522461px 25.481481552124023px 0px rgba(49, 49, 49, 0.06);
+}
+
+.review > .stars {
+  margin-top: 3vw;
+  max-width: 8vw;
+}
+
+.review > p {
+  text-align: center;
+  margin-top: 1vw;
+  max-width: 85%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.review-author {
+  margin: 3vw 0 2vw;
+  width: 60%;
+  white-space: nowrap;
+}
+
+.review-author > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.review-author h4 {
+  margin-top: 5px;
+}
+
+.testimonials-nav {
+  width: fit-content;
+  margin: 44px auto 0;
+  padding-bottom: 82px;
+  display: flex;
+  gap: 1rem;
+}
+
+.testimonials-nav > button {
+  border-radius: 50%;
+  border: 2px solid rgba(66, 69, 74, 1);
+  padding: 10px 14px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.newsletter > p {
+  margin-top: 10px;
+}
+
+.newsletter > form {
+  margin-top: 58px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+form > input[type="email"] {
+  padding: 26px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1.5px solid #f5f5f5;
+  background: #fafafa;
+
+  color: #42454a;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+}
+
+form > input[type="submit"] {
+  width: 196px;
+  padding: 26px;
+  border: none;
+  border-radius: 10px;
+  background: #42454a;
+
+  color: #fbfbfb;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%; /* 28px */
+  cursor: pointer;
+}
