@@ -44,6 +44,11 @@ html {
   color: var(--gray-1, #42454a);
 }
 
+.top-nav i {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
 .arrow {
   border: solid #42454a;
   border-width: 0 2px 2px 0;
@@ -174,6 +179,7 @@ html {
   right: 0;
   bottom: -5%;
   border-radius: 300px 0 0 300px;
+  z-index: -1;
 }
 
 .header-image > img {
@@ -416,9 +422,25 @@ section.motor-info > img {
   margin-top: 112px;
 }
 
-.scooters-images-wrapper > img {
+.colors-img-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.colors-img-container > img {
   width: 20vw;
   border-radius: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Ubuntu", sans-serif;
+  font-size: clamp(20px, 8vw, 80px);
+  font-weight: 700;
 }
 
 .scooters-images-wrapper {
@@ -519,7 +541,7 @@ section.motor-info > img {
 
 form > input[type="email"] {
   padding: 26px;
-  width: 400px;
+  width: clamp(18rem, 27vw, 25rem);
   border-radius: 10px;
   border: 1.5px solid #f5f5f5;
   background: #fafafa;
