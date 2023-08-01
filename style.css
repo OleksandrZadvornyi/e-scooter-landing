@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  color-scheme: light;
+}
+
 :root {
   --white: #fff;
   --black-1: #17181a;
