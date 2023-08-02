@@ -397,6 +397,10 @@ section.motor-info > img {
   flex-wrap: wrap;
 }
 
+.gallery-wrapper img {
+  width: 100%;
+}
+
 .flex-column {
   display: flex;
   flex-direction: column;
