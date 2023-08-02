@@ -588,7 +588,7 @@ footer > img {
   transform: scaleX(-1);
   bottom: 9%;
   left: -9%;
-  width: 728px;
+  width: 50%;
 }
 
 .footer-nav-wrapper {
