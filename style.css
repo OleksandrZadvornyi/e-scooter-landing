@@ -294,6 +294,10 @@ section.product-info > .product-info-list-section {
   flex-wrap: wrap-reverse;
 }
 
+.product-info-list-section > ul {
+  padding: 50px 0;
+}
+
 .product-info-list-section > img {
   max-width: 100%;
 }
