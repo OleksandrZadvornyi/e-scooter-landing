@@ -39,7 +39,7 @@
 
 <div align="center">
   <br/>
-  <a href="https://e-scooters.netlify.app/"><img src="website-preview.jpg" width="750" title="hover text"></a>
+  <a href="https://e-scooters.netlify.app/"><img src="website-preview.png" width="750" title="hover text"></a>
   <br/><br/>
 </div>
 
