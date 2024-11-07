@@ -1,7 +1,3 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -49,8 +45,6 @@ E-Scooters is a one-page website built using the [template](https://www.figma.co
 
 The website is deployed using [Netlify](https://www.netlify.com/). You can see it [here](https://e-scooters.netlify.app/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ### Built With
 
@@ -59,8 +53,6 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 * [![HTML][HTML]][HTML-url]
 * [![CSS][CSS]][CSS-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTACT -->
 ## Contact
@@ -68,8 +60,6 @@ This project does not use any libraries or frameworks. Only pure HTML and CSS ar
 Oleksandr - [@telegram](https://t.me/oleksandr_zadvornyi) - zadvornyi.alex16@gmail.com
 
 Project Link: [https://github.com/OleksandrZadvornyi/e-scooter-landing-page](https://github.com/OleksandrZadvornyi/e-scooter-landing-page)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
