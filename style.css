@@ -303,7 +303,7 @@ section.product-info > .product-info-list-section {
 }
 
 section li::before {
-  content: url("/images/list-marker.svg");
+  content: url("./images/list-marker.svg");
   padding-right: 18px;
 }
 
